@@ -1,0 +1,108 @@
+@import '../../css/variables.scss';
+
+.orderContainer {
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  background-color: $white;
+}
+
+.orderContainer:first-of-type {
+  margin: 0 0 20px 0 !important;
+}
+
+.row, .rowSm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  padding: 0.5em 0;
+}
+
+.deliveryType {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+
+.deliveryLabel {
+  font-weight: 700;
+  padding: 0 0 0 10px;
+}
+
+.eventName {
+  font-size: 1.5em;
+  font-weight: 700;
+  flex-shrink: 0;
+  flex-grow: 1;
+  line-height: $defaultLineHeight;
+}
+
+.eventDate {
+  font-weight: 700;
+}
+
+hr {
+  width: 100%;
+}
+
+.actionBtn {
+  padding: 1em;
+  font-weight: 700;
+}
+
+.costAmount {
+  font-weight: 700;
+}
+
+@media screen and (max-width: $mdBreakpoint) {
+  hr {
+    margin: 10px 0;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .rowSm {
+    flex-direction: row-reverse;
+    padding: 0;
+  }
+
+  .deliveryType {
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0 10px 0;
+  }
+
+  .eventName {
+    padding: 20px 0;
+  }
+
+  .actionBtn {
+    padding: 8px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: $smBreakpoint) {
+  .rowSm {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .deliveryType {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .deliveryLabel {
+    padding: 0;
+  }
+}
