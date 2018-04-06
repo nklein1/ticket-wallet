@@ -7,7 +7,8 @@ After talking to Lucas, I made some changes to the input data to facilitate some
 
  1. Added a "ticket_quantity" attribute, so that information could be displayed to the user.
  2. Changed the dates on the events so that some would occur in the future and could be displayed under "Upcoming Events"
- 3. Added 2 extra Ticket orders so that sorting orders could be demonstrated for both Upcoming and Past Events.
+ 3. Added 2 extra ticket orders so that sorting ticket orders could be demonstrated for both Upcoming and Past Events.
+ 4. Changed Event Names to feature the Pats and Celtics, because of course.
 
 ### How to Run
 
