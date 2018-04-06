@@ -1,6 +1,6 @@
 ## Ticket Wallet - Order History
 
-_An example Order History view rendered in React._
+_An example "Order History" view implemented in React._
 
 #### Quick Notes
 After talking to Lucas, I made some changes to the input data to facilitate some improvements:
