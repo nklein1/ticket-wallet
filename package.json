@@ -9,7 +9,7 @@
     "start": "webpack-dev-server"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "classnames": "^2.2.5",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^2.30.1",
